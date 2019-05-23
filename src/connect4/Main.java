@@ -1,0 +1,9 @@
+package connect4;
+
+public class Main {
+    public static void main(String[] args) {
+        Board board = new Board();
+        BoardController controller = new BoardController(board);
+        controller.startGame();
+    }
+}
